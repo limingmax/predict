@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: predict
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: predict
+  template:
+    metadata:
+      labels:
+        name: predict
+    spec:
+      containers:
+        - name: predict
+          image: registry.cn-hangzhou.aliyuncs.com/limingmax/wfpredict:v1 
+          env:
+          - name: REDIS_IP
+            value: "192.168.195.1"
+          - name: REDIS_PORT
+            value: "30088"
+          - name: KAFKA_IP
+            value: "192.168.195.1"
+          - name: KAFKA_PORT
+            value: "32400" 
+          - name: HBASE_IP
+            value: "192.168.195.1"
+          - name: HBASE_PORT
+            value: "9090"
+          - name: PRODUCER_TOPIC
+            value: "ai_predictor_alert"
+
+
