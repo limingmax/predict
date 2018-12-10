@@ -14,21 +14,22 @@ spec:
     spec:
       containers:
         - name: predict
-          image: registry.cn-hangzhou.aliyuncs.com/limingmax/wfpredict:v1 
+          image: registry.cn-hangzhou.aliyuncs.com/limingmax-test/predict:v1 
           env:
           - name: REDIS_IP
             value: "192.168.195.1"
           - name: REDIS_PORT
-            value: "30088"
+            value: "30098"
           - name: KAFKA_IP
-            value: "192.168.195.1"
+            value: "192.168.212.71"
           - name: KAFKA_PORT
-            value: "32400" 
+            value: "9092" 
           - name: HBASE_IP
             value: "192.168.195.1"
           - name: HBASE_PORT
             value: "9090"
           - name: PRODUCER_TOPIC
             value: "ai_predictor_alert"
+          command: ['/bin/bash', '/service/predict/src/start.sh']
 
 
