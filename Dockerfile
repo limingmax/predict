@@ -1,4 +1,5 @@
-FROM bitnami/python:3.6.7
+#FROM bitnami/python:3.6.7
+FROM registry.cn-hangzhou.aliyuncs.com/limingmax-test/predict:v1
 
 ENV LANG C.UTF-8
 
