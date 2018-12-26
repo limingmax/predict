@@ -1,5 +1,4 @@
-#FROM bitnami/python:3.6.7
-FROM registry.cn-hangzhou.aliyuncs.com/limingmax-test/predict:v1
+FROM registry.cn-hangzhou.aliyuncs.com/limingmax-test/ai-base:v1
 
 ENV LANG C.UTF-8
 
@@ -13,6 +12,12 @@ ENV HBASE_IP HBASE_IP
 ENV HBASE_PORT HBASE_PORT
 
 ENV PRODUCER_TOPIC PRODUCER_TOPIC
+
+COPY predict /service/predict
+WORKDIR /service/predict/src
+
+ADD start.sh /service/predict/src
+RUN chmod -R 777 /service/predict/src/start.sh
 
 WORKDIR /service/predict/src
 
