@@ -14,8 +14,6 @@ ENV HBASE_PORT HBASE_PORT
 ENV PRODUCER_TOPIC PRODUCER_TOPIC
 
 COPY predict /service/predict
-WORKDIR /service/predict/src
-
 ADD start.sh /service/predict/src
 RUN chmod -R 777 /service/predict/src/start.sh
 
