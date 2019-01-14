@@ -1,25 +1,35 @@
-# 预测告警
+# -*- coding: UTF-8 -*-
+
+#预测告警
 from zutils.zrpc.zmq.redismq import RedisMQ
 import traceback
 import time
 import datetime
 import math
-import happybase
 import numpy as np
 from kafka import *
 import json
 import configparser
+from zutils.logger import Logger
+
+import os
+from thrift.transport import TSocket
+from thrift.protocol import TBinaryProtocol
+from thrift.transport import TTransport
+from hbase_thrift.hbase import Hbase
+from hbase_thrift.hbase.ttypes import *
+
+
 cf = configparser.ConfigParser()
 cf.read("python.ini")
 kafka_host = cf.get("kafka", "host")
 kafka_port = cf.getint("kafka", "port")
 hbase_host = cf.get("hbase", "host")
 hbase_port = cf.getint("hbase", "port")
-register_address = cf.get("register", "address")
-producer_topic = cf.get("kafka", "producer_topic")
+register_address=cf.get("register","address")
+producer_topic=cf.get("kafka","producer_topic")
 
-
-def send(message):
+def send( message):
     # kafka_host = '192.168.212.71'
     # kafka_port = '9092'
     producer = KafkaProducer(bootstrap_servers=['{kafka_host}:{kafka_port}'.format(
@@ -32,9 +42,7 @@ def send(message):
     # 调用send方法，发送名字为'ai_threshold_alert'的topicid ，发送的消息为message_string
     response = producer.send('ai_predictor_alert', message)
     producer.flush()
-
-
-def time_handle(year, month, day):
+def time_handle( year, month, day):
     year = int(year)
     month = int(month)
     day = int(day)
@@ -60,7 +68,7 @@ def time_handle(year, month, day):
     if (month >= 10):
         month = str(month)
     else:
-        month = '0' + month
+        month = '0' +str(month)
     if (day >= 10):
         day = str(day)
     else:
@@ -69,49 +77,66 @@ def time_handle(year, month, day):
     return year, month, day
 
 
-def select(metric, resource, year, month, day, namespace):
+def select( metric, resource, year, month, day, namespace):
     print("===start===")
     # hbase_host = '192.168.195.1'
     # hbase_port = 9090
-    connection = happybase.Connection(hbase_host, hbase_port)
+    os.system('kinit -kt /etc/hbase.keytab hbase')
+    sock = TSocket.TSocket("k8s-alpha-master", 9090)
+    transport = TTransport.TSaslClientTransport(sock, "k8s-alpha-master", "hbase")
+    # Use the Binary protocol (must match your Thrift server's expected protocol)
+    protocol = TBinaryProtocol.TBinaryProtocol(transport)
+    client = Hbase.Client(protocol)
+    transport.open()
+	
     print("===end===")
-    t = connection.table('Monitor_record')
-
+    table='Monitor_record'
+    year, month, day = time_handle(year, month, day)
+    year, month, day = time_handle(year, month, day)
+    year, month, day = time_handle(year, month, day)
+    pre=year+"-"+month+"-"+day
     result_list = []
     print("namespace", namespace)
     if (namespace):
-        year, month, day = time_handle(year, month, day)
-        year, month, day = time_handle(year, month, day)
-        filter1 = bytes(
-            "SingleColumnValueFilter ('Metric', 'resourceName', =, 'binary:{resource}') AND SingleColumnValueFilter ('Metric', 'index_name', =, 'binary:{metric}') AND SingleColumnValueFilter ('Metric', 'time', =, 'regexstring:{year}-{month}-.*T.*:00:00') AND SingleColumnValueFilter ('Metric', 'type', =, 'binary:pod')AND SingleColumnValueFilter ('Metric', 'namespace_name', =, 'binary:{namespace}')".format(
-                resource=resource, metric=metric, year=year, month=month, namespace=namespace), encoding='utf-8')
-        result = t.scan(filter=filter1, row_start=bytes('{year}-{month}-{day}'.format(year=year, month=month, day=day),
-                                                        encoding='utf-8'))
-        list1 = []
-        for k, v in result:
-            print(k, v)
-            list1.append(float(v[b'Metric:index_value'].decode()))
+        
+	filter1 =  "RowFilter(=, 'substring:{pre}')AND SingleColumnValueFilter ('Metric', 'resourceName', =, 'binary:{resource}') AND SingleColumnValueFilter ('Metric', 'index_name', =, 'binary:{metric}') AND SingleColumnValueFilter ('Metric', 'time', =, 'regexstring:{year}-{month}-.*T.*:00:00') AND SingleColumnValueFilter ('Metric', 'type', =, 'binary:pod')AND SingleColumnValueFilter ('Metric', 'namespace_name', =, 'binary:{namespace}')".format(
+                resource=resource, metric=metric, year=year, month=month, namespace=namespace,pre=pre)
+	tscan=TScan(filterString=filter1)
+	list1 = []
+        sid=client.scannerOpenWithScan(table,tscan,{})
+	result=client.scannerGet(sid)		
+	while result:
+			print result
+			list1.append(float(result[0].columns.get("Metric:index_value").value))
+			result=client.scannerGet(sid)
+        
+        
+        
+       
 
         result_list = list1
     else:
-        year, month, day = time_handle(year, month, day)
-        year, month, day = time_handle(year, month, day)
-
-        filter1 = bytes(
-            "SingleColumnValueFilter ('Metric', 'resourceName', =, 'binary:{resource}') AND SingleColumnValueFilter ('Metric', 'index_name', =, 'binary:{metric}') AND SingleColumnValueFilter ('Metric', 'time', =, 'regexstring:{year}-{month}-.*T.*:00:00')AND SingleColumnValueFilter ('Metric', 'type', =, 'binary:node') ".format(
-                resource=resource, metric=metric, year=year, month=month), encoding='utf-8')
-        result = t.scan(filter=filter1,
-                        row_start=bytes('{year}-{month}-{day}'.format(year=year, month=month, day=day),
-                                        encoding='utf-8'))
-        list1 = []
-        for k, v in result:
-            print(k, v)
-            list1.append(float(v[b'Metric:index_value'].decode()))
-            # last = k
+        
+        filter1 ="RowFilter(=, 'substring:{pre}')AND SingleColumnValueFilter ('Metric', 'resourceName', =, 'binary:{resource}') AND SingleColumnValueFilter ('Metric', 'index_name', =, 'binary:{metric}') AND SingleColumnValueFilter ('Metric', 'time', =, 'regexstring:{year}-{month}-.*T.*:00:00')AND SingleColumnValueFilter ('Metric', 'type', =, 'binary:node') ".format(
+                resource=resource, metric=metric, year=year, month=month)
+	tscan=TScan(
+				filterString=filter1
+				)    
+	list1 = []
+        sid=client.scannerOpenWithScan(table,tscan,{})
+	result=client.scannerGet(sid)			
+        while result:
+			print result
+			list1.append(float(result[0].columns.get("Metric:index_value").value))
+			result=client.scannerGet(sid)
+        
+        
+		
         result_list = list1
-    print(result_list)
-    if not result_list:
-        raise Exception("历史数据不足")
+    transport.close()
+	# print(result_list)
+    # if not result_list:
+    #     raise Exception("历史数据不足")
     return result_list
 
 
@@ -124,14 +149,14 @@ def currentTime():
     return year, month, day
 
 
-def NDtest(value_list, t):
+def NDtest( value_list, t):
     # 正态性检验
     XX = np.array(value_list)
     m = XX.mean()
     s = XX.std()
     value_list = [x for x in value_list if x >= m - 3 * s and x <= m + 3 * s]
-    if s == 0:
-        return m, m
+    if s==0:
+        return m,m
     # X_scaled = preprocessing.scale(XX)
     # print(X_scaled.mean())
     # print(kstest(X_scaled,'norm'))
@@ -176,77 +201,108 @@ def NDtest(value_list, t):
     return hign, low
 
 
+
+
+
 task_name = '/predict'
 # register_address = '192.168.213.51:6379'
 rmq = RedisMQ(register_address, 10, 30)
 rmq.set_queue_maxsize(task_name, 10, 0)
+logger = Logger(Logger.INFO, 'predict', True)
 while True:
     try:
         request = rmq.pop([task_name], protocol='JSON', is_throw_except=False)
         if request is None:
-            print('task is free')
+            # logger().info(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+'task is free')
             continue
-        print(request.task_name, request.task)
-        request.response_succ('ok')
+        print(request.task,request.task_name)
+        # logger().info(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+": "+request.task_name+" "+ request.task)
 
-        # request.response_error('error')
+
+
         # time.sleep(3)
 
-        print('jielai  ')
+        # print('jielai  ')
         record = request.task
-        deviceName = record["deviceName"]
-        ruleId = record["ruleId"]
-        if not ruleId:
-            raise Exception("ruleId不能为空")
-        if not deviceName:
-            raise Exception("deviceName不能为空")
+        deviceName=0
+        ruleId=0
+        if "ruleId" not in record.keys():
+            request.response_error("ruleId不能为空")
+        else:
+            ruleId=record["ruleId"]
+        if "deviceName" not in record.keys():
+            request.response_error("deviceName不能为空")
+
+        else:
+            deviceName=record["deviceName"]
         deviceNameSplit = deviceName.split("_")
         namespace = 0
         resourceName = 0
         if (len(deviceNameSplit) == 4):
             namespace = deviceNameSplit[-2]
             resourceName = deviceNameSplit[-1]
-        else:
+        elif(len(deviceNameSplit)==2):
             resourceName = deviceNameSplit[-1]
-        metric = record["metricName"]
-        if not metric:
-            raise Exception("metricName不能为空")
+        else:
+            request.response_error("deviceName长度错误")
+
+        metric = 0
+        if "metricName"not in record.keys():
+            request.response_error("metricName不能为空")
+        else:
+            metric=record["metricName"]
         # 几小时以内是否会达到
-        forecastTime = record["forecastTimeRange"]
-        forecastTime = int(record["forecastTimeRange"][:-1])
-        print(forecastTime)
-        print(type(forecastTime))
-        if not forecastTime:
-            raise Exception("forecastTimeRange不能为空")
+        forecastTime = 0
+
+        # print(forecastTime)
+        # print(type(forecastTime))
+        if  "forecastTimeRange"not in record.keys():
+            request.response_error("forecastTimeRange不能为空")
+        else:
+            forecastTime = int(record["forecastTimeRange"][:-1])
+
         if forecastTime < 0:
-            raise Exception("forecastTimeRange不能为负数")
+            request.response_error("forecastTimeRange不能为负数")
+
         value = float(record["threshold"])
+        request.response_succ('ok')
+
+
 
         year, month, day = currentTime()
         # year = "2018"
         # month = "10"
         # day = "25"
-        print(metric, year, month, day, namespace, resourceName)
+        logger().info(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+" :select:hbase_port "+str(hbase_host)+" hbase_port: "+str(hbase_port)+"metric:"+metric+" year:"+year+" month: "+month+" day: "+ day+" namespace: "+ str(namespace)+"resourceName:"+ resourceName)
         resultlist = select(metric, resourceName, year, month, day, namespace)
-        hign, low = NDtest(resultlist, forecastTime)
+        if not resultlist:
+            logger().info(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))+"缺少历史数据")
+        hign=0
+        low=0
+        if  resultlist:
+            hign, low = NDtest(resultlist, forecastTime)
+        logger().info(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+" : "+" hign: "+str(hign)+" low: "+str(low))
         result = 0
-        if value > hign:
+        if not resultlist:
+            result="empty"
+        elif value > hign:
             result = "low"
         elif value < low:
             result = "high"
         else:
             result = "medium"
-        metric = metric.split("/")[0]
+        metric=metric.split("/")[0]
         returndict = {
             "deviceName": deviceName,
             "predictor": metric,
             "forecastTime": str(forecastTime)+"h",
             "result": result,
-            "ruleId": ruleId
+			"ruleId":ruleId
         }
-        print(returndict)
+
+        logger().info(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+":send:kafka_host:"+str(kafka_host)+" kafka_port: "+str(kafka_port)+"deviceName:"+returndict["deviceName"]+" predictor: "+returndict["deviceName"]+" forecastTime: "+returndict["forecastTime"]+" result: "+returndict["result"]+" ruleId: "+returndict["ruleId"])
         send(returndict)
 
-        # print(request.task_name, request.task)
+
     except:
         traceback.print_exc()

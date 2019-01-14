@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 # @Time   : 2018-9-10
 # @Author : zxh
 import threading

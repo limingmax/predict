@@ -1,0 +1,451 @@
+2018-11-01 16:06:12,770 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:06:43,731 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:08:00,782 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:08:52,787 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:09:23,748 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:13:17,807 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:13:48,770 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:14:33,758 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:15:18,742 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:15:49,803 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:16:20,763 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:16:51,723 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:17:22,785 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:17:53,744 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:18:24,807 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:19:01,784 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:19:52,783 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:20:23,741 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:20:54,801 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:21:25,762 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:21:56,725 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:22:27,786 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:22:58,747 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:23:29,801 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:24:00,763 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:24:31,724 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:25:02,784 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:25:33,737 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:26:04,793 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:26:35,753 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:27:06,713 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:27:37,772 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:28:08,734 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:28:39,797 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:29:10,758 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:29:41,719 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:30:12,778 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:30:43,738 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:31:14,797 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:31:45,759 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:32:16,717 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:32:47,779 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:33:18,739 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:33:49,801 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:34:20,763 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:40:50,724 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:42:04,771 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:42:35,733 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:43:40,764 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:45:03,723 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:46:31,794 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:47:02,754 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:47:33,713 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:48:04,772 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:48:35,731 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:49:06,796 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:49:37,755 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:50:08,716 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:50:39,776 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:51:10,736 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:51:41,798 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:52:12,759 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:52:43,718 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:53:14,776 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:53:45,739 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:54:16,700 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:54:47,762 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:55:18,721 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:55:49,782 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:56:20,744 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:56:51,705 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:58:23,785 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:58:54,749 - threadpool_server.py[45] - INFO: free
+2018-11-01 16:59:39,738 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:00:10,699 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:00:41,761 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:01:12,722 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:01:43,782 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:19:29,751 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:20:00,711 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:20:31,772 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:21:02,732 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:21:33,792 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:22:04,753 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:22:35,713 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:23:06,772 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:23:37,734 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:24:08,697 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:24:39,758 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:25:10,708 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:25:41,778 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:26:12,737 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:26:43,692 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:27:14,754 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:27:45,713 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:28:16,771 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:28:47,734 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:29:18,695 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:29:49,755 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:30:20,716 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:30:51,775 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:31:22,735 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:31:53,696 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:32:24,755 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:32:55,716 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:33:26,775 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:33:57,738 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:34:28,700 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:34:59,761 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:35:30,721 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:36:01,782 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:36:32,742 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:37:03,699 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:37:34,761 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:38:05,717 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:38:36,775 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:39:07,736 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:39:38,694 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:40:09,755 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:40:40,714 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:41:11,774 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:41:42,736 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:42:13,696 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:42:44,759 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:43:15,720 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:43:46,779 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:44:17,735 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:44:48,699 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:45:19,761 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:45:50,722 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:46:21,781 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:46:52,742 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:47:23,700 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:47:54,760 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:48:25,720 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:48:56,783 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:49:27,744 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:49:58,705 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:50:29,764 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:51:00,726 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:51:31,783 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:52:02,741 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:52:33,699 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:53:04,761 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:53:35,720 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:54:06,684 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:54:37,745 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:55:08,708 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:55:39,765 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:56:10,727 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:56:41,688 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:57:12,747 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:57:43,707 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:58:14,767 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:58:45,725 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:59:16,686 - threadpool_server.py[45] - INFO: free
+2018-11-01 17:59:47,747 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:00:18,709 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:00:49,772 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:01:20,735 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:01:51,696 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:02:22,756 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:02:53,714 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:03:24,775 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:03:55,734 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:04:26,690 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:04:57,751 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:05:28,708 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:05:59,770 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:06:30,730 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:07:01,689 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:07:32,749 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:08:03,711 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:08:34,770 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:09:05,734 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:09:36,693 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:10:07,750 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:10:38,711 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:11:09,768 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:11:40,729 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:12:11,692 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:12:42,754 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:13:13,713 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:13:44,773 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:14:15,737 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:14:46,694 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:15:17,756 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:15:48,715 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:16:19,777 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:16:50,737 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:17:21,696 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:17:52,757 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:18:23,717 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:18:54,679 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:19:25,743 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:19:56,705 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:20:27,764 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:20:58,722 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:21:29,679 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:22:00,739 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:22:31,699 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:23:02,754 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:23:33,708 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:24:04,769 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:24:35,725 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:25:06,686 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:25:37,740 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:26:08,699 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:26:39,759 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:27:10,722 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:27:41,681 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:28:12,744 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:28:43,704 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:29:14,771 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:29:45,731 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:30:16,694 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:30:47,754 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:31:18,715 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:31:49,776 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:32:20,733 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:32:51,695 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:33:22,757 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:33:53,719 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:34:24,681 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:34:55,741 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:35:26,700 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:35:57,762 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:36:28,723 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:36:59,691 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:37:30,753 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:38:01,711 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:38:32,771 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:39:03,736 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:39:34,693 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:40:05,750 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:40:36,708 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:41:07,771 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:41:38,729 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:42:09,689 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:42:40,749 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:43:11,708 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:43:42,767 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:44:13,729 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:44:44,688 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:45:15,750 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:45:46,711 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:46:17,771 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:46:48,730 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:47:19,691 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:47:50,751 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:48:21,711 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:48:52,672 - threadpool_server.py[45] - INFO: free
+2018-11-01 18:49:23,732 - threadpool_server.py[45] - INFO: free
+2018-11-07 16:18:36,257 - cluster.py[353] - INFO: Group coordinator for mygroup11 is BrokerMetadata(nodeId=1, host='192.168.212.71', port=9092, rack=None)
+2018-11-07 16:18:36,260 - base.py[676] - INFO: Discovered coordinator 1 for group mygroup11
+2018-11-07 16:18:36,260 - base.py[723] - INFO: Starting new heartbeat thread
+2018-11-07 16:18:36,260 - consumer.py[341] - INFO: Revoking previously assigned partitions set() for group mygroup11
+2018-11-07 16:18:36,260 - base.py[434] - INFO: (Re-)joining group mygroup11
+2018-11-07 16:18:36,282 - base.py[504] - INFO: Elected group leader -- performing partition assignments using range
+2018-11-07 16:18:36,289 - base.py[333] - INFO: Successfully joined group mygroup11 with generation 33
+2018-11-07 16:18:36,290 - subscription_state.py[257] - INFO: Updated partition assignment: [TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=9)]
+2018-11-07 16:18:36,290 - consumer.py[238] - INFO: Setting newly assigned partitions {TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=9), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=4)} for group mygroup11
+2018-11-07 16:19:16,578 - base.py[333] - INFO: Successfully joined group mygroup11 with generation 36
+2018-11-07 16:19:16,578 - subscription_state.py[257] - INFO: Updated partition assignment: [TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=9)]
+2018-11-07 16:19:16,578 - consumer.py[238] - INFO: Setting newly assigned partitions {TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=9), TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5)} for group mygroup11
+2018-11-07 17:08:14,394 - base.py[333] - INFO: Successfully joined group mygroup11 with generation 37
+2018-11-07 17:08:14,470 - subscription_state.py[257] - INFO: Updated partition assignment: [TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=4)]
+2018-11-07 17:08:14,471 - consumer.py[238] - INFO: Setting newly assigned partitions {TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=4)} for group mygroup11
+2018-11-07 17:08:38,346 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_1
+2018-11-07 17:08:38,364 - threadpool_server.py[84] - ERROR: Traceback (most recent call last):
+  File "D:\metric\src\zutils\zrpc\server\threadpool_server.py", line 80, in work_thread
+    result = requests_map[request.task_name](request.task)
+  File "D:/metric/src/example_server..py", line 25, in handle1
+    record=task["data"]
+TypeError: list indices must be integers or slices, not str
+
+2018-11-07 17:08:38,370 - threadpool_server.py[86] - INFO: SENDERROR:TASK_INCRID_AISVR_/add_1
+2018-11-07 17:09:08,990 - threadpool_server.py[76] - INFO: 2280 ['/modify', '/delete', '/add'] free
+2018-11-07 17:10:04,546 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_2
+2018-11-07 17:10:04,549 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_2
+2018-11-07 17:10:06,808 - base.py[813] - WARNING: Heartbeat failed for group mygroup11 because it is rebalancing
+2018-11-07 17:10:06,824 - consumer.py[341] - INFO: Revoking previously assigned partitions {TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=4)} for group mygroup11
+2018-11-07 17:10:06,824 - base.py[434] - INFO: (Re-)joining group mygroup11
+2018-11-07 17:10:06,834 - base.py[504] - INFO: Elected group leader -- performing partition assignments using range
+2018-11-07 17:10:06,850 - base.py[333] - INFO: Successfully joined group mygroup11 with generation 40
+2018-11-07 17:10:06,850 - subscription_state.py[257] - INFO: Updated partition assignment: [TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=9)]
+2018-11-07 17:10:06,850 - consumer.py[238] - INFO: Setting newly assigned partitions {TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=9), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5)} for group mygroup11
+2018-11-07 17:10:34,951 - threadpool_server.py[76] - INFO: 11500 ['/modify', '/delete', '/add'] free
+2018-11-07 17:11:06,009 - threadpool_server.py[76] - INFO: 11500 ['/modify', '/delete', '/add'] free
+2018-11-07 17:11:36,970 - threadpool_server.py[76] - INFO: 11500 ['/modify', '/delete', '/add'] free
+2018-11-07 17:13:34,000 - threadpool_server.py[76] - INFO: 12072 ['/modify', '/delete', '/add'] free
+2018-11-07 17:14:04,959 - threadpool_server.py[76] - INFO: 12072 ['/modify', '/delete', '/add'] free
+2018-11-07 17:14:36,021 - threadpool_server.py[76] - INFO: 12072 ['/modify', '/delete', '/add'] free
+2018-11-07 17:15:06,978 - threadpool_server.py[76] - INFO: 12072 ['/modify', '/delete', '/add'] free
+2018-11-07 17:15:37,936 - threadpool_server.py[76] - INFO: 12072 ['/modify', '/delete', '/add'] free
+2018-11-07 17:16:08,998 - threadpool_server.py[76] - INFO: 12072 ['/modify', '/delete', '/add'] free
+2018-11-07 17:16:39,956 - threadpool_server.py[76] - INFO: 12072 ['/modify', '/delete', '/add'] free
+2018-11-07 17:16:52,251 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_3
+2018-11-07 17:16:52,255 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_3
+2018-11-07 17:17:22,938 - threadpool_server.py[76] - INFO: 12072 ['/modify', '/delete', '/add'] free
+2018-11-07 17:26:26,748 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_4
+2018-11-07 17:26:26,791 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_4
+2018-11-07 17:26:56,935 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:27:03,088 - conn.py[346] - INFO: <BrokerConnection node_id=1 host=192.168.212.71:9092 <connecting> [IPv4 ('192.168.212.71', 9092)]>: connecting to 192.168.212.71:9092 [('192.168.212.71', 9092) IPv4]
+2018-11-07 17:27:03,096 - conn.py[369] - INFO: <BrokerConnection node_id=1 host=192.168.212.71:9092 <connecting> [IPv4 ('192.168.212.71', 9092)]>: Connection complete.
+2018-11-07 17:27:27,994 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:27:58,954 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:28:30,023 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:29:00,995 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:29:31,934 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:30:02,992 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:30:33,955 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:31:05,013 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:31:35,974 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:32:06,933 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:32:37,995 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:33:08,956 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:33:40,016 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:34:10,975 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:34:41,935 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:35:12,994 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:35:43,955 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:36:15,014 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:36:45,976 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:37:16,937 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:37:48,001 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:38:18,959 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:38:50,018 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:39:20,978 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:39:51,936 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:40:22,995 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:40:53,955 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:41:25,013 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:41:55,974 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:42:26,936 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:42:57,998 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:43:28,961 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 17:44:00,018 - threadpool_server.py[76] - INFO: 11060 ['/modify', '/delete', '/add'] free
+2018-11-07 19:34:25,975 - threadpool_server.py[76] - INFO: 12456 ['/modify', '/delete', '/add'] free
+2018-11-07 19:34:30,356 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_5
+2018-11-07 19:34:30,359 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_5
+2018-11-07 19:35:00,941 - threadpool_server.py[76] - INFO: 12456 ['/modify', '/delete', '/add'] free
+2018-11-07 19:36:57,761 - base.py[333] - INFO: Successfully joined group mygroup11 with generation 49
+2018-11-07 19:36:57,761 - subscription_state.py[257] - INFO: Updated partition assignment: [TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=9)]
+2018-11-07 19:36:57,762 - consumer.py[238] - INFO: Setting newly assigned partitions {TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=9), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7)} for group mygroup11
+2018-11-07 19:37:16,180 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_6
+2018-11-07 19:37:16,183 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_6
+2018-11-07 19:37:46,966 - threadpool_server.py[76] - INFO: 10788 ['/modify', '/delete', '/add'] free
+2018-11-07 19:38:17,940 - threadpool_server.py[76] - INFO: 10788 ['/modify', '/delete', '/add'] free
+2018-11-07 19:38:48,983 - threadpool_server.py[76] - INFO: 10788 ['/modify', '/delete', '/add'] free
+2018-11-07 19:40:00,921 - base.py[333] - INFO: Successfully joined group mygroup11 with generation 51
+2018-11-07 19:40:00,922 - subscription_state.py[257] - INFO: Updated partition assignment: [TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=9)]
+2018-11-07 19:40:00,922 - consumer.py[238] - INFO: Setting newly assigned partitions {TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=9), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7)} for group mygroup11
+2018-11-07 19:40:25,962 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_7
+2018-11-07 19:40:25,964 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_7
+2018-11-07 19:40:55,928 - threadpool_server.py[76] - INFO: 8496 ['/modify', '/delete', '/add'] free
+2018-11-07 19:40:58,676 - conn.py[346] - INFO: <BrokerConnection node_id=1 host=192.168.212.71:9092 <connecting> [IPv4 ('192.168.212.71', 9092)]>: connecting to 192.168.212.71:9092 [('192.168.212.71', 9092) IPv4]
+2018-11-07 19:40:58,678 - conn.py[369] - INFO: <BrokerConnection node_id=1 host=192.168.212.71:9092 <connecting> [IPv4 ('192.168.212.71', 9092)]>: Connection complete.
+2018-11-07 19:41:27,002 - threadpool_server.py[76] - INFO: 8496 ['/modify', '/delete', '/add'] free
+2018-11-07 19:42:30,910 - threadpool_server.py[76] - INFO: 12756 ['/modify', '/delete', '/add'] free
+2018-11-07 19:43:01,969 - threadpool_server.py[76] - INFO: 12756 ['/modify', '/delete', '/add'] free
+2018-11-07 19:43:27,051 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_8
+2018-11-07 19:43:27,054 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_8
+2018-11-07 19:43:57,973 - threadpool_server.py[76] - INFO: 12756 ['/modify', '/delete', '/add'] free
+2018-11-07 19:44:28,931 - threadpool_server.py[76] - INFO: 12756 ['/modify', '/delete', '/add'] free
+2018-11-07 19:45:24,130 - base.py[333] - INFO: Successfully joined group mygroup11 with generation 55
+2018-11-07 19:45:24,131 - subscription_state.py[257] - INFO: Updated partition assignment: [TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=9)]
+2018-11-07 19:45:24,131 - consumer.py[238] - INFO: Setting newly assigned partitions {TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=9)} for group mygroup11
+2018-11-07 19:45:31,002 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_9
+2018-11-07 19:45:31,005 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_9
+2018-11-07 19:45:58,966 - conn.py[346] - INFO: <BrokerConnection node_id=1 host=192.168.212.71:9092 <connecting> [IPv4 ('192.168.212.71', 9092)]>: connecting to 192.168.212.71:9092 [('192.168.212.71', 9092) IPv4]
+2018-11-07 19:45:58,968 - conn.py[369] - INFO: <BrokerConnection node_id=1 host=192.168.212.71:9092 <connecting> [IPv4 ('192.168.212.71', 9092)]>: Connection complete.
+2018-11-07 19:46:01,910 - threadpool_server.py[76] - INFO: 12600 ['/modify', '/delete', '/add'] free
+2018-11-07 19:46:32,968 - threadpool_server.py[76] - INFO: 12600 ['/modify', '/delete', '/add'] free
+2018-11-07 19:47:03,927 - threadpool_server.py[76] - INFO: 12600 ['/modify', '/delete', '/add'] free
+2018-11-07 19:47:34,987 - threadpool_server.py[76] - INFO: 12600 ['/modify', '/delete', '/add'] free
+2018-11-07 19:48:05,948 - threadpool_server.py[76] - INFO: 12600 ['/modify', '/delete', '/add'] free
+2018-11-07 19:48:14,675 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/delete_1
+2018-11-07 19:48:14,677 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/delete_1
+2018-11-07 19:48:44,925 - threadpool_server.py[76] - INFO: 12600 ['/modify', '/delete', '/add'] free
+2018-11-07 19:49:15,984 - threadpool_server.py[76] - INFO: 12600 ['/modify', '/delete', '/add'] free
+2018-11-07 19:49:36,995 - base.py[504] - INFO: Elected group leader -- performing partition assignments using range
+2018-11-07 19:49:37,035 - base.py[333] - INFO: Successfully joined group mygroup11 with generation 57
+2018-11-07 19:49:37,036 - subscription_state.py[257] - INFO: Updated partition assignment: [TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=9)]
+2018-11-07 19:49:37,037 - consumer.py[238] - INFO: Setting newly assigned partitions {TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=9), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=8)} for group mygroup11
+2018-11-07 19:49:37,038 - consumer.py[341] - INFO: Revoking previously assigned partitions {TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=9), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=8)} for group mygroup11
+2018-11-07 19:49:37,038 - base.py[434] - INFO: (Re-)joining group mygroup11
+2018-11-07 19:49:37,045 - base.py[504] - INFO: Elected group leader -- performing partition assignments using range
+2018-11-07 19:49:37,080 - base.py[333] - INFO: Successfully joined group mygroup11 with generation 58
+2018-11-07 19:49:37,080 - subscription_state.py[257] - INFO: Updated partition assignment: [TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=9)]
+2018-11-07 19:49:37,081 - consumer.py[238] - INFO: Setting newly assigned partitions {TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=9), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=8)} for group mygroup11
+2018-11-07 19:49:46,079 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/delete_2
+2018-11-07 19:49:46,091 - threadpool_server.py[84] - ERROR: Traceback (most recent call last):
+  File "D:\metric\src\zutils\zrpc\server\threadpool_server.py", line 80, in work_thread
+    result = requests_map[request.task_name](request.task)
+  File "D:/metric/src/example_server..py", line 35, in handle2
+    del data[name]
+KeyError: 'default_k8s-alpha-node1_default_kafka-2'
+
+2018-11-07 19:49:46,102 - threadpool_server.py[86] - INFO: SENDERROR:TASK_INCRID_AISVR_/delete_2
+2018-11-07 19:50:09,382 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_10
+2018-11-07 19:50:09,403 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_10
+2018-11-07 19:50:39,943 - threadpool_server.py[76] - INFO: 11672 ['/modify', '/delete', '/add'] free
+2018-11-07 19:51:10,902 - threadpool_server.py[76] - INFO: 11672 ['/modify', '/delete', '/add'] free
+2018-11-07 19:51:41,961 - threadpool_server.py[76] - INFO: 11672 ['/modify', '/delete', '/add'] free
+2018-11-07 19:52:12,929 - threadpool_server.py[76] - INFO: 11672 ['/modify', '/delete', '/add'] free
+2018-11-07 19:52:43,984 - threadpool_server.py[76] - INFO: 11672 ['/modify', '/delete', '/add'] free
+2018-11-07 19:53:14,946 - threadpool_server.py[76] - INFO: 11672 ['/modify', '/delete', '/add'] free
+2018-11-07 19:53:45,905 - threadpool_server.py[76] - INFO: 11672 ['/modify', '/delete', '/add'] free
+2018-11-07 19:53:58,504 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_11
+2018-11-07 19:53:58,507 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_11
+2018-11-07 19:54:28,988 - threadpool_server.py[76] - INFO: 11672 ['/modify', '/delete', '/add'] free
+2018-11-07 19:54:59,949 - threadpool_server.py[76] - INFO: 11672 ['/modify', '/delete', '/add'] free
+2018-11-07 19:55:43,929 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 19:56:14,988 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 19:56:45,950 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 19:57:16,916 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 19:57:27,175 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_12
+2018-11-07 19:57:27,178 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_12
+2018-11-07 19:57:57,909 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 19:58:28,958 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 19:58:59,919 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 19:59:30,977 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:00:01,935 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:00:32,992 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:01:03,950 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:01:34,909 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:02:05,968 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:02:36,922 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:02:57,869 - base.py[971] - WARNING: Heartbeat poll expired, leaving group
+2018-11-07 20:02:57,870 - base.py[756] - INFO: Leaving consumer group (mygroup11).
+2018-11-07 20:03:07,987 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:03:38,944 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:04:09,921 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:04:40,974 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:05:11,944 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:05:42,997 - threadpool_server.py[76] - INFO: 5992 ['/modify', '/delete', '/add'] free
+2018-11-07 20:06:40,911 - threadpool_server.py[76] - INFO: 8360 ['/modify', '/delete', '/add'] free
+2018-11-07 20:06:48,311 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_13
+2018-11-07 20:06:48,367 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_13
+2018-11-07 20:07:18,991 - threadpool_server.py[76] - INFO: 8360 ['/modify', '/delete', '/add'] free
+2018-11-07 20:07:49,939 - threadpool_server.py[76] - INFO: 8360 ['/modify', '/delete', '/add'] free
+2018-11-07 20:08:21,005 - threadpool_server.py[76] - INFO: 8360 ['/modify', '/delete', '/add'] free
+2018-11-07 20:08:40,678 - base.py[333] - INFO: Successfully joined group mygroup11 with generation 64
+2018-11-07 20:08:40,679 - subscription_state.py[257] - INFO: Updated partition assignment: [TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=3), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=9)]
+2018-11-07 20:08:40,680 - consumer.py[238] - INFO: Setting newly assigned partitions {TopicPartition(topic='k8s_MonitorData', partition=9), TopicPartition(topic='k8s_MonitorData', partition=4), TopicPartition(topic='k8s_MonitorData', partition=5), TopicPartition(topic='k8s_MonitorData', partition=6), TopicPartition(topic='k8s_MonitorData', partition=7), TopicPartition(topic='k8s_MonitorData', partition=0), TopicPartition(topic='k8s_MonitorData', partition=1), TopicPartition(topic='k8s_MonitorData', partition=2), TopicPartition(topic='k8s_MonitorData', partition=8), TopicPartition(topic='k8s_MonitorData', partition=3)} for group mygroup11
+2018-11-07 20:09:10,979 - threadpool_server.py[76] - INFO: 10688 ['/modify', '/delete', '/add'] free
+2018-11-07 20:09:18,091 - threadpool_server.py[78] - INFO: RECV:TASK_INCRID_AISVR_/add_14
+2018-11-07 20:09:18,094 - threadpool_server.py[82] - INFO: SEND:TASK_INCRID_AISVR_/add_14
+2018-11-07 20:09:48,949 - threadpool_server.py[76] - INFO: 10688 ['/modify', '/delete', '/add'] free
+2018-11-07 20:10:19,911 - threadpool_server.py[76] - INFO: 10688 ['/modify', '/delete', '/add'] free

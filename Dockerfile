@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/limingmax-test/ai-base:v1
+FROM registry.cn-hangzhou.aliyuncs.com/limingmax-test/ai-base:v2
 
 ENV LANG C.UTF-8
 

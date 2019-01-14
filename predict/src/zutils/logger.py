@@ -15,7 +15,8 @@ class Logger:
         formatter = logging.Formatter("%(asctime)s - %(filename)s[%(lineno)d] - %(levelname)s: %(message)s")
         self.logger = logging.getLogger()
         self.logger.setLevel(getattr(logging, level))
-        os.makedirs(relative_project_path('logs'), exist_ok=True)
+        if not os.path.exists(os.path.join('logs', 'pid')):
+		os.makedirs(os.path.join('logs', 'pid'))
         logfile = relative_project_path('logs', filename +".log")
         fh = logging.FileHandler(logfile, mode='a')
         fh.setFormatter(formatter)
@@ -27,8 +28,9 @@ class Logger:
 
 
     def kill_last_task(self, filename):
-        os.makedirs(relative_project_path('logs', 'pid'), exist_ok=True)
-        pid_filepath = relative_project_path(relative_project_path('logs', 'pid', filename))
+        if not os.path.exists(os.path.join('logs', 'pid')):
+		os.makedirs(os.path.join('logs', 'pid'))
+	pid_filepath = relative_project_path(relative_project_path('logs', 'pid', filename))
         if os.path.isfile(pid_filepath):
             with open(pid_filepath) as f:
                 pid = f.readline()

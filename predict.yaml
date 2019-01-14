@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: predict
-          image: registry.cn-hangzhou.aliyuncs.com/limingmax-test/predict:v1 
+          image: registry.cn-hangzhou.aliyuncs.com/limingmax-test/predict:v2 
           env:
           - name: REDIS_IP
             value: "192.168.195.1"
