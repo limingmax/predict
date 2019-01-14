@@ -13,6 +13,9 @@ ENV HBASE_PORT HBASE_PORT
 
 ENV PRODUCER_TOPIC PRODUCER_TOPIC
 
+ADD hbase.keytab /etc
+ADD krb5.conf /etc
+
 COPY predict /service/predict
 ADD start.sh /service/predict/src
 RUN chmod -R 777 /service/predict/src/start.sh
