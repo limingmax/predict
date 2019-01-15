@@ -82,8 +82,8 @@ def select( metric, resource, year, month, day, namespace):
     # hbase_host = '192.168.195.1'
     # hbase_port = 9090
     os.system('kinit -kt /etc/hbase.keytab hbase')
-    sock = TSocket.TSocket(hbase_host, hbase_port)
-    transport = TTransport.TSaslClientTransport(sock, hbase_host, "hbase")
+    sock = TSocket.TSocket("hbase-master", hbase_port)
+    transport = TTransport.TSaslClientTransport(sock, "hbase-master", "hbase")
     # Use the Binary protocol (must match your Thrift server's expected protocol)
     protocol = TBinaryProtocol.TBinaryProtocol(transport)
     client = Hbase.Client(protocol)
