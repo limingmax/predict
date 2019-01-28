@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: predict
+  namespace: ai
 spec:
   replicas: 1
   selector:
@@ -12,18 +13,28 @@ spec:
       labels:
         name: predict
     spec:
+      hostAliases:
+      - ip: "192.168.195.1"
+        hostnames:
+        - "k8s-alpha-master"
+      - ip: "192.168.195.2"
+        hostnames:
+        - "k8s-alpha-node1"
+      - ip: "192.168.195.3"
+        hostnames:
+        - "k8s-alpha-node2"
       containers:
         - name: predict
-          image: registry.cn-hangzhou.aliyuncs.com/limingmax-test/predict:v2 
+          image: registry.cn-hangzhou.aliyuncs.com/limingmax-test/predict:nocv5 
           env:
           - name: REDIS_IP
-            value: "192.168.195.1"
+            value: "192.168.193.1"
           - name: REDIS_PORT
             value: "30098"
           - name: KAFKA_IP
-            value: "192.168.212.71"
+            value: "192.168.195.1"
           - name: KAFKA_PORT
-            value: "9092" 
+            value: "32400" 
           - name: HBASE_IP
             value: "192.168.195.1"
           - name: HBASE_PORT
