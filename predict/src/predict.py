@@ -40,7 +40,7 @@ def send( message):
     )
 
     # 调用send方法，发送名字为'ai_threshold_alert'的topicid ，发送的消息为message_string
-    response = producer.send('ai_predictor_alert', message)
+    response = producer.send(producer_topic, message)
     producer.flush()
 def time_handle( year, month, day):
     year = int(year)
@@ -88,51 +88,40 @@ def select( metric, resource, year, month, day, namespace):
     protocol = TBinaryProtocol.TBinaryProtocol(transport)
     client = Hbase.Client(protocol)
     transport.open()
-	
     print("===end===")
     table='Monitor_record'
-    year, month, day = time_handle(year, month, day)
-    year, month, day = time_handle(year, month, day)
-    year, month, day = time_handle(year, month, day)
-    pre=year+"-"+month+"-"+day
     result_list = []
     print("namespace", namespace)
-    if (namespace):
-        
-	filter1 =  "RowFilter(=, 'substring:{pre}')AND SingleColumnValueFilter ('Metric', 'resourceName', =, 'binary:{resource}') AND SingleColumnValueFilter ('Metric', 'index_name', =, 'binary:{metric}') AND SingleColumnValueFilter ('Metric', 'time', =, 'regexstring:{year}-{month}-.*T.*:00:00') AND SingleColumnValueFilter ('Metric', 'type', =, 'binary:pod')AND SingleColumnValueFilter ('Metric', 'namespace_name', =, 'binary:{namespace}')".format(
-                resource=resource, metric=metric, year=year, month=month, namespace=namespace,pre=pre)
-	tscan=TScan(filterString=filter1)
-	list1 = []
-        sid=client.scannerOpenWithScan(table,tscan,{})
-	result=client.scannerGet(sid)		
-	while result:
-			print result
-			list1.append(float(result[0].columns.get("Metric:index_value").value))
-			result=client.scannerGet(sid)
-        
-        
-        
-       
-
-        result_list = list1
-    else:
-        
-        filter1 ="RowFilter(=, 'substring:{pre}')AND SingleColumnValueFilter ('Metric', 'resourceName', =, 'binary:{resource}') AND SingleColumnValueFilter ('Metric', 'index_name', =, 'binary:{metric}') AND SingleColumnValueFilter ('Metric', 'time', =, 'regexstring:{year}-{month}-.*T.*:00:00')AND SingleColumnValueFilter ('Metric', 'type', =, 'binary:node') ".format(
-                resource=resource, metric=metric, year=year, month=month)
-	tscan=TScan(
-				filterString=filter1
-				)    
-	list1 = []
-        sid=client.scannerOpenWithScan(table,tscan,{})
-	result=client.scannerGet(sid)			
-        while result:
-			print result
-			list1.append(float(result[0].columns.get("Metric:index_value").value))
-			result=client.scannerGet(sid)
-        
-        
-		
-        result_list = list1
+    for i in range(3):
+                year, month, day = time_handle(year, month, day)
+		if (namespace):
+			
+			pre=metric+"_"+resource+"_"+namespace+"_"+year+"-"+month+"-"+day+"T"
+			filter1 =  "RowFilter(=, 'binaryprefix:{pre}')AND SingleColumnValueFilter ('Metric', 'time', =, 'regexstring:{year}-{month}-.*T.*:00:00') ".format(year=year, month=month,pre=pre)
+			tscan=TScan(filterString=filter1)
+			list1 = []
+			sid=client.scannerOpenWithScan(table,tscan,{})
+			result=client.scannerGet(sid)		
+			while result:
+					print result
+					list1.append(float(result[0].columns.get("Metric:index_value").value))
+					result=client.scannerGet(sid)
+			result_list = result_list+list1
+		else:
+			
+			pre=metric+"_"+resource+"_"+year+"-"+month+"-"+day+"T"
+	        	filter1 ="RowFilter(=, 'binaryprefix:{pre}')AND SingleColumnValueFilter ('Metric', 'time', =, 'regexstring:{year}-{month}-.*T.*:00:00') ".format(year=year, month=month,pre=pre)
+			tscan=TScan(
+						filterString=filter1
+						)    
+			list1 = []
+			sid=client.scannerOpenWithScan(table,tscan,{})
+			result=client.scannerGet(sid)			
+			while result:
+				print result
+				list1.append(float(result[0].columns.get("Metric:index_value").value))
+				result=client.scannerGet(sid)
+			result_list = result_list+list1
     transport.close()
 	# print(result_list)
     # if not result_list:

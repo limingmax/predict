@@ -1,17 +1,6 @@
-FROM registry.cn-hangzhou.aliyuncs.com/limingmax-test/ai-base:v2
+FROM registry.cn-hangzhou.aliyuncs.com/limingmax-test/ai-base:v3
 
 ENV LANG C.UTF-8
-
-ENV REDIS_IP REDIS_IP
-ENV REDIS_PORT REDIS_PORT
-
-ENV KAFKA_IP KAFKA_IP
-ENV KAFKA_PORT KAFKA_PORT
-
-ENV HBASE_IP HBASE_IP
-ENV HBASE_PORT HBASE_PORT
-
-ENV PRODUCER_TOPIC PRODUCER_TOPIC
 
 ADD hbase.keytab /etc
 ADD krb5.conf /etc

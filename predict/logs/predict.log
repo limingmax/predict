@@ -631,3 +631,48 @@
 2019-01-11 01:51:56,709 - kafka.py[477] - INFO: Proceeding to force close the producer since pending requests could not be completed within timeout 0.
 2019-01-11 01:51:56,710 - conn.py[710] - INFO: <BrokerConnection node_id=0 host=192.168.195.3:32400 <connected> [IPv4 ('192.168.195.3', 32400)]>: Closing connection. 
 2019-01-11 01:51:56,712 - conn.py[710] - INFO: <BrokerConnection node_id=2 host=192.168.195.2:32402 <connected> [IPv4 ('192.168.195.2', 32402)]>: Closing connection. 
+2019-01-23 21:59:35,084 - predict.py[265] - INFO: 2019-01-23 21:59:35 :select:hbase_port 192.168.195.1 hbase_port: 9090metric:memory/usage year:2019 month: 01 day: 23 namespace: kube-systemresourceName:calico-node-mxdkc
+2019-01-23 21:59:58,665 - predict.py[268] - INFO: 2019-01-23 21:59:58缺少历史数据
+2019-01-23 21:59:58,665 - predict.py[273] - INFO: 2019-01-23 21:59:58 :  hign: 0 low: 0
+2019-01-23 21:59:58,665 - predict.py[292] - INFO: 2019-01-23 21:59:58:send:kafka_host:192.168.195.1 kafka_port: 32400deviceName:default_k8s-alpha-node2_kube-system_calico-node-mxdkc predictor: default_k8s-alpha-node2_kube-system_calico-node-mxdkc forecastTime: 1h result: empty ruleId: 24ed9e94-2f19-462f-bff19-3ab9b42f8d71
+2019-01-23 21:59:58,667 - client_async.py[234] - INFO: Bootstrapping cluster metadata from [('192.168.195.1', 32400, 2)]
+2019-01-23 21:59:58,668 - conn.py[349] - INFO: <BrokerConnection node_id=bootstrap host=192.168.195.1:32400 <connecting> [IPv4 ('192.168.195.1', 32400)]>: connecting to 192.168.195.1:32400 [('192.168.195.1', 32400) IPv4]
+2019-01-23 21:59:58,678 - conn.py[372] - INFO: <BrokerConnection node_id=bootstrap host=192.168.195.1:32400 <connecting> [IPv4 ('192.168.195.1', 32400)]>: Connection complete.
+2019-01-23 21:59:58,696 - client_async.py[276] - INFO: Bootstrap succeeded: found 3 brokers and 11 topics.
+2019-01-23 21:59:58,696 - conn.py[710] - INFO: <BrokerConnection node_id=bootstrap host=192.168.195.1:32400 <connected> [IPv4 ('192.168.195.1', 32400)]>: Closing connection. 
+2019-01-23 21:59:58,697 - conn.py[349] - INFO: <BrokerConnection node_id=2 host=192.168.195.2:32402 <connecting> [IPv4 ('192.168.195.2', 32402)]>: connecting to 192.168.195.2:32402 [('192.168.195.2', 32402) IPv4]
+2019-01-23 21:59:58,698 - conn.py[917] - INFO: Probing node 2 broker version
+2019-01-23 21:59:58,699 - conn.py[372] - INFO: <BrokerConnection node_id=2 host=192.168.195.2:32402 <connecting> [IPv4 ('192.168.195.2', 32402)]>: Connection complete.
+2019-01-23 21:59:58,834 - conn.py[974] - INFO: Broker version identifed as 0.11.0
+2019-01-23 21:59:58,836 - conn.py[976] - INFO: Set configuration api_version=(0, 11, 0) to skip auto check_version requests on startup
+2019-01-23 21:59:58,837 - conn.py[917] - INFO: Probing node 2 broker version
+2019-01-23 21:59:58,954 - conn.py[974] - INFO: Broker version identifed as 0.11.0
+2019-01-23 21:59:58,956 - conn.py[976] - INFO: Set configuration api_version=(0, 11, 0) to skip auto check_version requests on startup
+2019-01-23 21:59:58,966 - conn.py[349] - INFO: <BrokerConnection node_id=0 host=192.168.195.2:32400 <connecting> [IPv4 ('192.168.195.2', 32400)]>: connecting to 192.168.195.2:32400 [('192.168.195.2', 32400) IPv4]
+2019-01-23 21:59:58,968 - conn.py[372] - INFO: <BrokerConnection node_id=0 host=192.168.195.2:32400 <connecting> [IPv4 ('192.168.195.2', 32400)]>: Connection complete.
+2019-01-23 21:59:58,993 - kafka.py[457] - INFO: Closing the Kafka producer with 0 secs timeout.
+2019-01-23 21:59:58,994 - kafka.py[477] - INFO: Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2019-01-23 21:59:58,995 - conn.py[710] - INFO: <BrokerConnection node_id=0 host=192.168.195.2:32400 <connected> [IPv4 ('192.168.195.2', 32400)]>: Closing connection. 
+2019-01-23 21:59:58,995 - conn.py[710] - INFO: <BrokerConnection node_id=2 host=192.168.195.2:32402 <connected> [IPv4 ('192.168.195.2', 32402)]>: Closing connection. 
+2019-01-23 22:13:28,339 - predict.py[265] - INFO: 2019-01-23 22:13:28 :select:hbase_port 192.168.195.1 hbase_port: 9090metric:memory/usage year:2019 month: 01 day: 23 namespace: defaultresourceName:redis-8k57g
+2019-01-23 22:13:48,528 - predict.py[273] - INFO: 2019-01-23 22:13:48 :  hign: 53321583.42543738 low: 53162161.09714199
+2019-01-23 22:13:48,530 - predict.py[292] - INFO: 2019-01-23 22:13:48:send:kafka_host:192.168.195.1 kafka_port: 32400deviceName:default_k8s-alpha-node2_default_redis-8k57g predictor: default_k8s-alpha-node2_default_redis-8k57g forecastTime: 1h result: high ruleId: 24ed9e94-2f19-462f-bff19-3ab9b42f8d71
+2019-01-23 22:13:48,534 - client_async.py[234] - INFO: Bootstrapping cluster metadata from [('192.168.195.1', 32400, 2)]
+2019-01-23 22:13:48,537 - conn.py[349] - INFO: <BrokerConnection node_id=bootstrap host=192.168.195.1:32400 <connecting> [IPv4 ('192.168.195.1', 32400)]>: connecting to 192.168.195.1:32400 [('192.168.195.1', 32400) IPv4]
+2019-01-23 22:13:48,540 - conn.py[372] - INFO: <BrokerConnection node_id=bootstrap host=192.168.195.1:32400 <connecting> [IPv4 ('192.168.195.1', 32400)]>: Connection complete.
+2019-01-23 22:13:48,556 - client_async.py[276] - INFO: Bootstrap succeeded: found 3 brokers and 11 topics.
+2019-01-23 22:13:48,557 - conn.py[710] - INFO: <BrokerConnection node_id=bootstrap host=192.168.195.1:32400 <connected> [IPv4 ('192.168.195.1', 32400)]>: Closing connection. 
+2019-01-23 22:13:48,559 - conn.py[349] - INFO: <BrokerConnection node_id=1 host=192.168.195.2:32401 <connecting> [IPv4 ('192.168.195.2', 32401)]>: connecting to 192.168.195.2:32401 [('192.168.195.2', 32401) IPv4]
+2019-01-23 22:13:48,561 - conn.py[917] - INFO: Probing node 1 broker version
+2019-01-23 22:13:48,564 - conn.py[372] - INFO: <BrokerConnection node_id=1 host=192.168.195.2:32401 <connecting> [IPv4 ('192.168.195.2', 32401)]>: Connection complete.
+2019-01-23 22:13:48,682 - conn.py[974] - INFO: Broker version identifed as 0.11.0
+2019-01-23 22:13:48,683 - conn.py[976] - INFO: Set configuration api_version=(0, 11, 0) to skip auto check_version requests on startup
+2019-01-23 22:13:48,684 - conn.py[917] - INFO: Probing node 1 broker version
+2019-01-23 22:13:48,797 - conn.py[974] - INFO: Broker version identifed as 0.11.0
+2019-01-23 22:13:48,798 - conn.py[976] - INFO: Set configuration api_version=(0, 11, 0) to skip auto check_version requests on startup
+2019-01-23 22:13:48,808 - conn.py[349] - INFO: <BrokerConnection node_id=0 host=192.168.195.2:32400 <connecting> [IPv4 ('192.168.195.2', 32400)]>: connecting to 192.168.195.2:32400 [('192.168.195.2', 32400) IPv4]
+2019-01-23 22:13:48,821 - conn.py[372] - INFO: <BrokerConnection node_id=0 host=192.168.195.2:32400 <connecting> [IPv4 ('192.168.195.2', 32400)]>: Connection complete.
+2019-01-23 22:13:48,832 - kafka.py[457] - INFO: Closing the Kafka producer with 0 secs timeout.
+2019-01-23 22:13:48,833 - kafka.py[477] - INFO: Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2019-01-23 22:13:48,834 - conn.py[710] - INFO: <BrokerConnection node_id=0 host=192.168.195.2:32400 <connected> [IPv4 ('192.168.195.2', 32400)]>: Closing connection. 
+2019-01-23 22:13:48,836 - conn.py[710] - INFO: <BrokerConnection node_id=1 host=192.168.195.2:32401 <connected> [IPv4 ('192.168.195.2', 32401)]>: Closing connection. 
